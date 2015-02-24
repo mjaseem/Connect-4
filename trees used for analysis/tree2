@@ -1,0 +1,16 @@
+#lang racket
+#(struct:gnode -inf.0 (
+                                              #(struct:gnode 480 (#(struct:gnode 370 (#(struct:leaf 380) #(struct:leaf 370) #(struct:leaf 380) avoid avoid #(struct:leaf 380) #(struct:leaf 380))) #(struct:gnode -inf.0 (#(struct:leaf 390))) #(struct:gnode 480 (#(struct:leaf 480) #(struct:leaf 480) avoid avoid avoid #(struct:leaf 480) #(struct:leaf 480))) avoid avoid #(struct:gnode -inf.0 ()) #(struct:gnode -inf.0 ()))) 
+                                              #(struct:gnode +inf.0 (#(struct:gnode -inf.0 (#(struct:leaf 380) #(struct:leaf -inf.0) #(struct:leaf 380) avoid avoid #(struct:leaf 380) #(struct:leaf 380))))) 
+                                              #(struct:gnode 380 (#(struct:gnode 380 (#(struct:leaf 380) #(struct:leaf 380) avoid avoid avoid #(struct:leaf 380) #(struct:leaf 380))) #(struct:gnode -inf.0 (#(struct:leaf 390))) avoid avoid avoid #(struct:gnode -inf.0 (#(struct:leaf 390) #(struct:leaf 390) avoid avoid avoid)) #(struct:gnode 380 (#(struct:leaf 380) #(struct:leaf 380) avoid avoid avoid #(struct:leaf 380) #(struct:leaf 380))))) 
+                                              avoid 
+                                              avoid 
+                                              #(struct:gnode -inf.0 
+                                                             (#(struct:gnode -inf.0 (#(struct:leaf 380) #(struct:leaf 380) #(struct:leaf 380) avoid avoid #(struct:leaf -inf.0) #(struct:leaf 380))) 
+                                                              #(struct:gnode -inf.0 (#(struct:leaf 390) #(struct:leaf -inf.0) #(struct:leaf 390) avoid avoid #(struct:leaf -inf.0) #(struct:leaf 390))) 
+                                                              #(struct:gnode -inf.0 (#(struct:leaf 480) #(struct:leaf 480) avoid avoid avoid #(struct:leaf -inf.0) #(struct:leaf 480))) 
+                                                              avoid 
+                                                              avoid 
+                                                              #(struct:gnode -inf.0 (#(struct:leaf +inf.0) #(struct:leaf +inf.0) #(struct:leaf +inf.0) avoid avoid #(struct:leaf -inf.0) #(struct:leaf +inf.0))) 
+                                                              #(struct:gnode -inf.0 (#(struct:leaf 380) #(struct:leaf 380) #(struct:leaf 380) avoid avoid #(struct:leaf -inf.0) #(struct:leaf 380)))))
+                                              #(struct:gnode +inf.0 ())))
