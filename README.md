@@ -8,7 +8,7 @@ This is an implementation of Connect-4 in Racket. The game features a single-pla
 2. Run the racket program by executing ```racket main.rkt``` from the project folder
 3. Follow instructions on the screen to play the game
 
-# Limitations:
+# Limitations
 
 In single-player mode, the AI evaluates only up to four future moves of the player. This could be increased but will result in a noticeable delay.
 
